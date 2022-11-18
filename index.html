@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <link href="styles.css" rel="stylesheet">
+        <title></title>
+        <script src="https://kit.fontawesome.com/7047f8896c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <div class="navbar">
+            <div class="navbar-center">
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <h3 class="header">Tasty!</h1>
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fas fa-cart-plus"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <header class="banner-container">
+            <div class="banner">
+                <h1 class="banner-title">Delicious Meals by You!</h1>
+                <button class="banner-btn">Start Here</button>
+            </div>
+        </header>
+
+        <!-- Items -->
+        <section class="products">
+            <div class="section-title">
+                <h2>Our Selection</h2>
+            </div>
+            <div class="products-center">
+                
+            </div>
+        </section>
+
+        <!-- Cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>your cart</h2>
+                <div class="cart-content">
+                </div>
+                <div class="cart-footer">
+                    <h3>your total : $ <span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="app.js"></script>
+    </body>
 </html>
